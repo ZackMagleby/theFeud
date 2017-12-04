@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "gameshow";
+    src: url(fonts/gameshow/gameshow.ttf);
+}
+
+@font-face {
+    font-family: "arcadeclassic";
+    src: url(fonts/arcadeclassic/arcadeclassic.ttf);
+}
+
+body {
+    background-image:url(images/blankboard.jpg);
+   background-size:100%;
+   background-repeat:no-repeat;
+   height: 100%;
+   width: 100%;
+}
+
+table{
+     margin-left: 20%;
+     margin-top: 15%;
+}
+
+div.boardAnswer1 {
+    margin-left: 22%;
+    margin-top: 16%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue1 {
+    margin-left: 27%;
+    margin-top: 11%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardAnswer2 {
+    margin-left: 22%;
+    margin-top: 26%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue2 {
+    margin-left: 27%;
+    margin-top: 21%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer3 {
+    margin-left: 22%;
+    margin-top: 36%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue3 {
+    margin-left: 27%;
+    margin-top: 31%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer4 {
+    margin-left: 22%;
+    margin-top: 46%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue4 {
+    margin-left: 27%;
+    margin-top: 41%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer5 {
+    margin-left: 72%;
+    margin-top: 16%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue5 {
+    margin-left: 77%;
+    margin-top: 11%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer6 {
+    margin-left: 72%;
+    margin-top: 26%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue6 {
+    margin-left: 77%;
+    margin-top: 21%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer7 {
+    margin-left: 72%;
+    margin-top: 36%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue7 {
+    margin-left: 77%;
+    margin-top: 31%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+div.boardAnswer8 {
+    margin-left: 72%;
+    margin-top: 46%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}
+
+div.boardValue8 {
+    margin-left: 77%;
+    margin-top: 41%;
+    font-size: 300%;
+    font-family: arcadeclassic;
+    color: white;
+}

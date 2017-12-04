@@ -2,35 +2,36 @@
 <html>
 <head>
   <script src="controller.js">  </script>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body onload="playGame()">
   <h1>
     The Board
   </h1>
-  <table border="1">
+  <table>
     <tr>
-      <td><div class="boardAnswer1" style="visibility:hidden"></div></td>
-      <td><div class="boardValue1" style="visibility:hidden"></td>
-      <td><div class="boardAnswer5" style="visibility:hidden"></div></td>
-      <td><div class="boardValue5" style="visibility:hidden"></td>
+      <td><div class="boardAnswer1" id="boardAnswer1" style="visibility:hidden"></div></td>
+      <td><div class="boardValue1" id="boardValue1" style="visibility:hidden"></td>
+      <td><div class="boardAnswer5" id="boardAnswer5" style="visibility:hidden"></div></td>
+      <td><div class="boardValue5" id="boardValue5" style="visibility:hidden"></td>
     </tr>
     <tr>
-      <td><div class="boardAnswer2" style="visibility:hidden"></div></td>
-      <td><div class="boardValue2" style="visibility:hidden"></td>
-      <td><div class="boardAnswer6" style="visibility:hidden"></div></td>
-      <td><div class="boardValue6" style="visibility:hidden"></td>
+      <td><div class="boardAnswer2" id="boardAnswer2" style="visibility:hidden"></div></td>
+      <td><div class="boardValue2" id="boardValue2" style="visibility:hidden"></td>
+      <td><div class="boardAnswer6" id="boardAnswer6" style="visibility:hidden"></div></td>
+      <td><div class="boardValue6" id="boardValue6" style="visibility:hidden"></td>
     </tr>
     <tr>
-      <td><div class="boardAnswer3" style="visibility:hidden"></div></td>
-      <td><div class="boardValue3" style="visibility:hidden"></td>
-      <td><div class="boardAnswer7" style="visibility:hidden"></div></td>
-      <td><div class="boardValue7" style="visibility:hidden"></td>
+      <td><div class="boardAnswer3" id="boardAnswer3" style="visibility:hidden"></div></td>
+      <td><div class="boardValue3" id="boardValue3" style="visibility:hidden"></td>
+      <td><div class="boardAnswer7" id="boardAnswer7" style="visibility:hidden"></div></td>
+      <td><div class="boardValue7" id="boardValue7" style="visibility:hidden"></td>
     </tr>
     <tr>
-      <td><div class="boardAnswer4" style="visibility:hidden"></div></td>
-      <td><div class="boardValue4" style="visibility:hidden"></td>
-      <td><div class="boardAnswer8" style="visibility:hidden"></div></td>
-      <td><div class="boardValue8" style="visibility:hidden"></td>
+      <td><div class="boardAnswer4" id="boardAnswer4" style="visibility:hidden"></div></td>
+      <td><div class="boardValue4" id="boardValue4" style="visibility:hidden"></td>
+      <td><div class="boardAnswer8" id="boardAnswer8" style="visibility:hidden"></div></td>
+      <td><div class="boardValue8" id="boardValue8" style="visibility:hidden"></td>
     </tr>
   </table>
   <button onclick="goHome()">Go Back</button>
