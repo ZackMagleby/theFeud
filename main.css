@@ -1,45 +1,58 @@
 @font-face {
     font-family: "gameshow";
-    src: url(fonts/gameshow/gameshow.ttf);
+    src: url(fonts/gameshow/gameshow.TTF);
 }
 
 @font-face {
     font-family: "arcadeclassic";
-    src: url(fonts/arcadeclassic/arcadeclassic.ttf);
+    src: url(fonts/arcadeclassic/arcadeclassic.TTF);
 }
 
-body {
+html, body {
     background-image:url(images/blankboard.jpg);
    background-size:100%;
    background-repeat:no-repeat;
+   margin: 0;
    height: 100%;
    width: 100%;
 }
 
 table{
      margin-left: 20%;
-     margin-top: 15%;
+     margin-top: 13%;
+     width: 60%;
+     height: 75%;
 }
 
-div.boardAnswer1 {
-    margin-left: 22%;
-    margin-top: 16%;
+#tableCol1{
+  width: 30%;
+  height: 20%;
+}
+
+#tableCol2 {
+  width: 10%;
+  height: 20%;
+}
+
+div.boardAnswer1, div.boardAnswer2, div.boardAnswer3, div.boardAnswer4, div.boardAnswer5, div.boardAnswer6, div.boardAnswer7, div.boardAnswer8 {
+    margin-left: 10%;
+    margin-top: 0%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 
-div.boardValue1 {
-    margin-left: 27%;
-    margin-top: 11%;
+div.boardValue1, div.boardValue2, div.boardValue3, div.boardValue4, div.boardValue5, div.boardValue6, div.boardValue7, div.boardValue8 {
+    margin-left: 5%;
+    margin-top: 0%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 
-div.boardAnswer2 {
+/*div.boardAnswer2 {
     margin-left: 22%;
-    margin-top: 26%;
+    margin-top: 25%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -47,14 +60,14 @@ div.boardAnswer2 {
 
 div.boardValue2 {
     margin-left: 27%;
-    margin-top: 21%;
+    margin-top: 20%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer3 {
     margin-left: 22%;
-    margin-top: 36%;
+    margin-top: 35%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -62,14 +75,14 @@ div.boardAnswer3 {
 
 div.boardValue3 {
     margin-left: 27%;
-    margin-top: 31%;
+    margin-top: 30%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer4 {
     margin-left: 22%;
-    margin-top: 46%;
+    margin-top: 45%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -77,14 +90,14 @@ div.boardAnswer4 {
 
 div.boardValue4 {
     margin-left: 27%;
-    margin-top: 41%;
+    margin-top: 40%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer5 {
     margin-left: 72%;
-    margin-top: 16%;
+    margin-top: 15%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -92,14 +105,14 @@ div.boardAnswer5 {
 
 div.boardValue5 {
     margin-left: 77%;
-    margin-top: 11%;
+    margin-top: 10%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer6 {
     margin-left: 72%;
-    margin-top: 26%;
+    margin-top: 25%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -107,14 +120,14 @@ div.boardAnswer6 {
 
 div.boardValue6 {
     margin-left: 77%;
-    margin-top: 21%;
+    margin-top: 20%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer7 {
     margin-left: 72%;
-    margin-top: 36%;
+    margin-top: 35%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -122,14 +135,14 @@ div.boardAnswer7 {
 
 div.boardValue7 {
     margin-left: 77%;
-    margin-top: 31%;
+    margin-top: 30%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
 }
 div.boardAnswer8 {
     margin-left: 72%;
-    margin-top: 46%;
+    margin-top: 45%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
@@ -137,8 +150,8 @@ div.boardAnswer8 {
 
 div.boardValue8 {
     margin-left: 77%;
-    margin-top: 41%;
+    margin-top: 40%;
     font-size: 300%;
     font-family: arcadeclassic;
     color: white;
-}
+}*/
