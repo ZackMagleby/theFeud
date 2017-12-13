@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "arcadeclassic";
+    src: url(fonts/arcadeclassic/arcadeclassic.TTF);
+}
+
+html, body {
+    background-image:url(images/blankboard.jpg);
+   background-size:100%;
+   background-repeat:no-repeat;
+   margin: 0;
+   height: 100%;
+   width: 100%;
+}
+
+table{
+     margin-left: 20%;
+     margin-top: 13%;
+     width: 60%;
+     height: 75%;
+}
+
+#tableCol1{
+  width: 50%;
+  height: 2em;
+  position: relative;
+}
+
+/*#tableCol2 {
+  width: 1em;
+  height: 2em;
+}*/
+
+#boardAnswer1, #boardAnswer2, #boardAnswer3, #boardAnswer4, #boardAnswer5, #boardAnswer6, #boardAnswer7, #boardAnswer8 {
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 3em;
+    font-family: arcadeclassic;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    z-index: -1;
+    transform: translate(1em, -200%);
+}
+
+#boardValue1, #boardValue2, #boardValue3, #boardValue4, #boardValue5, #boardValue6, #boardValue7, #boardValue8 {
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 3em;
+    font-family: arcadeclassic;
+    width: 100%;
+    color: white;
+    position:absolute;
+    display: inline-block;
+    float: right;
+    z-index: -1;
+    transform: translate(10em, -200%);
+}
+
+#board1, #board2, #board3, #board4, #board5, #board6, #board7, #board8{
+    width: 99%;
+    height: auto;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+#wrong1{
+    transform: translate(200%, -150%);
+    z-index: 100;
+    position: absolute;
+}
+
+#wrong2{
+    transform: translate(75%, -150%);
+    z-index: 100;
+    position: absolute;
+}
+
+#wrong3{
+    transform: translate(33%, -150%);
+    z-index: 100;
+    position: absolute;
+}
