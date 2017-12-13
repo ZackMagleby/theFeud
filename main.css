@@ -25,133 +25,42 @@ table{
 }
 
 #tableCol1{
-  width: 30%;
-  height: 20%;
+  width: 50%;
+  height: 2em;
 }
 
-#tableCol2 {
-  width: 10%;
-  height: 20%;
-}
+/*#tableCol2 {
+  width: 1em;
+  height: 2em;
+}*/
 
 div.boardAnswer1, div.boardAnswer2, div.boardAnswer3, div.boardAnswer4, div.boardAnswer5, div.boardAnswer6, div.boardAnswer7, div.boardAnswer8 {
-    margin-left: 10%;
-    margin-top: 0%;
-    font-size: 300%;
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 3em;
     font-family: arcadeclassic;
     color: white;
+    position: absolute;
+    display: inline-block;
+    float: left;
+    align: right;
 }
 
 div.boardValue1, div.boardValue2, div.boardValue3, div.boardValue4, div.boardValue5, div.boardValue6, div.boardValue7, div.boardValue8 {
-    margin-left: 5%;
-    margin-top: 0%;
-    font-size: 300%;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 3em;
     font-family: arcadeclassic;
     color: white;
+    position:absolute;
+    display: inline-block;
+    float: right;
+    align: right;
 }
 
-/*div.boardAnswer2 {
-    margin-left: 22%;
-    margin-top: 25%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
+div.board1, div.board2, div.board3, div.board4, div.board5, div.board6, div.board7, div.board8{
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    display: block;
 }
-
-div.boardValue2 {
-    margin-left: 27%;
-    margin-top: 20%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer3 {
-    margin-left: 22%;
-    margin-top: 35%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue3 {
-    margin-left: 27%;
-    margin-top: 30%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer4 {
-    margin-left: 22%;
-    margin-top: 45%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue4 {
-    margin-left: 27%;
-    margin-top: 40%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer5 {
-    margin-left: 72%;
-    margin-top: 15%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue5 {
-    margin-left: 77%;
-    margin-top: 10%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer6 {
-    margin-left: 72%;
-    margin-top: 25%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue6 {
-    margin-left: 77%;
-    margin-top: 20%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer7 {
-    margin-left: 72%;
-    margin-top: 35%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue7 {
-    margin-left: 77%;
-    margin-top: 30%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-div.boardAnswer8 {
-    margin-left: 72%;
-    margin-top: 45%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}
-
-div.boardValue8 {
-    margin-left: 77%;
-    margin-top: 40%;
-    font-size: 300%;
-    font-family: arcadeclassic;
-    color: white;
-}*/

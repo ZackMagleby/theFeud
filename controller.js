@@ -11,7 +11,7 @@ function startGame(){
       organizedAnswers.push(answers[i]);
     }
   }
-  sortByKey(organizedAnswers, "value");
+  //sortByKey(organizedAnswers, "value");
   storeAnswersInStorage(organizedAnswers);
   window.location.href = "board.html";
 }
@@ -29,10 +29,8 @@ function playGame(){
 
        if (key >= 49 && key <= 56) {
            var numberPressed = key - 48;
-           var tag = ".boardAnswer" + (numberPressed);
-           var tag2 = ".boardValue" + (numberPressed);
-           document.querySelector(tag).setAttribute("style", "visibility: visible");
-           document.querySelector(tag2).setAttribute("style", "visibility: visible");
+           var tag = ".board" + (numberPressed);
+           document.querySelector(tag).setAttribute("style", "visibility: hidden");
        }
     }
 }
@@ -86,7 +84,7 @@ function getAnswersFromStorage(){
     var value = sessionStorage.getItem(tag2);
     answers.push({name,value})
   }
-  sortByKey(answers, 'value');
+  //sortByKey(answers, 'value');
   return answers;
 }
 
