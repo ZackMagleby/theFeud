@@ -2,6 +2,13 @@ function goHome(){
   window.location.href = "main.html";
 }
 
+function revealTile(numberSelected){
+    var tag = ".board" + (numberSelected);
+    document.querySelector(tag).setAttribute("style", "visibility: hidden");
+    var audio = new Audio('audio/ding.mp3');
+    audio.play();
+}
+
 function startGame(){
   var answers = getValuesFromHTML();
   var organizedAnswers = [];
@@ -22,18 +29,18 @@ function playGame(){
     for(var i = 0; i<boardAnswers.length; i++){
       var tag = ".boardAnswer" + (i+1);
       var tag2 = ".boardValue" + (i+1);
+      var tag3 = ".board" + (i+1);
         document.querySelector(tag).innerHTML = boardAnswers[i].name;
         document.querySelector(tag2).innerHTML = boardAnswers[i].value;
+        document.querySelector(tag3).setAttribute("style", "visibility: visible");
+
     }
     window.onkeyup = function(e) {
        var key = e.keyCode ? e.keyCode : e.which;
 
        if (key >= 49 && key <= 56) {
            var numberPressed = key - 48;
-           var tag = ".board" + (numberPressed);
-           document.querySelector(tag).setAttribute("style", "visibility: hidden");
-           var audio = new Audio('audio/ding.mp3');
-           audio.play();
+           revealTile(numberPressed);
        }
        else if (key == 77){
            if(theme.paused){
@@ -67,6 +74,14 @@ function playGame(){
            setTimeout(function(){
                document.querySelector('.wrong3').setAttribute("style", "visibility: hidden");
            }, 1250);
+       }
+       else if(key == 80){
+           if(theme.paused){
+               theme.play();
+           }
+           else{
+               theme.pause();
+           }
        }
     }
 }
