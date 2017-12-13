@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body onload="playGame()" onresize='document.getElementsByTagName("body")[0].style[ "font-size" ] = document.body.clientWidth*(12/1280) + "px";'>
-  <h1>The Board</h1>
+  <h1>.</h1>
   <table>
     <tr>
       <td id="tableCol1">
@@ -56,6 +56,9 @@
       </td>
     </tr>
   </table>
+  <img src="images/x1.png" class="wrong1" id="wrong1" style="visibility:hidden;">
+  <img src="images/x2.png" class="wrong2" id="wrong2" style="visibility:hidden">
+  <img src="images/x3.png" class="wrong3" id="wrong3" style="visibility:hidden">
   <button onclick="goHome()">Go Back</button>
 </body>
 </html>

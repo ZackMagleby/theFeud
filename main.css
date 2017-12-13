@@ -27,6 +27,7 @@ table{
 #tableCol1{
   width: 50%;
   height: 2em;
+  position: relative;
 }
 
 /*#tableCol2 {
@@ -34,7 +35,7 @@ table{
   height: 2em;
 }*/
 
-div.boardAnswer1, div.boardAnswer2, div.boardAnswer3, div.boardAnswer4, div.boardAnswer5, div.boardAnswer6, div.boardAnswer7, div.boardAnswer8 {
+#boardAnswer1, #boardAnswer2, #boardAnswer3, #boardAnswer4, #boardAnswer5, #boardAnswer6, #boardAnswer7, #boardAnswer8 {
     margin-left: 10px;
     margin-top: 0px;
     font-size: 3em;
@@ -43,24 +44,46 @@ div.boardAnswer1, div.boardAnswer2, div.boardAnswer3, div.boardAnswer4, div.boar
     position: absolute;
     display: inline-block;
     float: left;
-    align: right;
+    z-index: -1;
+    transform: translate(1em, -200%);
 }
 
-div.boardValue1, div.boardValue2, div.boardValue3, div.boardValue4, div.boardValue5, div.boardValue6, div.boardValue7, div.boardValue8 {
+#boardValue1, #boardValue2, #boardValue3, #boardValue4, #boardValue5, #boardValue6, #boardValue7, #boardValue8 {
     margin-left: 5px;
     margin-top: 0px;
     font-size: 3em;
     font-family: arcadeclassic;
+    width: 100%;
     color: white;
     position:absolute;
     display: inline-block;
     float: right;
-    align: right;
+    z-index: -1;
+    transform: translate(10em, -200%);
 }
 
-div.board1, div.board2, div.board3, div.board4, div.board5, div.board6, div.board7, div.board8{
-    width: 30%;
-    height: 15%;
-    position: absolute;
+#board1, #board2, #board3, #board4, #board5, #board6, #board7, #board8{
+    width: 99%;
+    height: auto;
+    position: relative;
     display: block;
+    z-index: 1;
+}
+
+#wrong1{
+    transform: translate(200%, -150%);
+    z-index: 100;
+    position: absolute;
+}
+
+#wrong2{
+    transform: translate(75%, -150%);
+    z-index: 100;
+    position: absolute;
+}
+
+#wrong3{
+    transform: translate(33%, -150%);
+    z-index: 100;
+    position: absolute;
 }

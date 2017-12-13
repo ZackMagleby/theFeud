@@ -18,6 +18,7 @@ function startGame(){
 
 function playGame(){
   var boardAnswers = getAnswersFromStorage();
+  var theme = new Audio('audio/theme.mp3');
     for(var i = 0; i<boardAnswers.length; i++){
       var tag = ".boardAnswer" + (i+1);
       var tag2 = ".boardValue" + (i+1);
@@ -31,6 +32,41 @@ function playGame(){
            var numberPressed = key - 48;
            var tag = ".board" + (numberPressed);
            document.querySelector(tag).setAttribute("style", "visibility: hidden");
+           var audio = new Audio('audio/ding.mp3');
+           audio.play();
+       }
+       else if (key == 77){
+           if(theme.paused){
+               theme.play();
+           }
+           else{
+               theme.pause();
+               theme = new Audio('audio/theme.mp3');
+           }
+       }
+       else if (key == 90){
+           document.querySelector('.wrong1').setAttribute("style", "visibility: visible");
+           var audio = new Audio('audio/buzzer.mp3');
+           audio.play();
+           setTimeout(function(){
+               document.querySelector('.wrong1').setAttribute("style", "visibility: hidden");
+           }, 1250);
+       }
+       else if (key == 88){
+           document.querySelector('.wrong2').setAttribute("style", "visibility: visible");
+           var audio = new Audio('audio/buzzer.mp3');
+           audio.play();
+           setTimeout(function(){
+               document.querySelector('.wrong2').setAttribute("style", "visibility: hidden");
+           }, 1250);
+       }
+       else if (key == 67){
+           document.querySelector('.wrong3').setAttribute("style", "visibility: visible");
+           var audio = new Audio('audio/buzzer.mp3');
+           audio.play();
+           setTimeout(function(){
+               document.querySelector('.wrong3').setAttribute("style", "visibility: hidden");
+           }, 1250);
        }
     }
 }
