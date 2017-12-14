@@ -65,20 +65,12 @@ table{
     visibility: hidden;
 }
 
-#wrong1{
-    transform: translate(115%, -100%);
-    z-index: 100;
-    position: absolute;
-}
-
-#wrong2{
-    transform: translate(35%, -100%);
-    z-index: 100;
-    position: absolute;
-}
-
-#wrong3{
-    transform: translate(5%, -100%);
-    z-index: 100;
-    position: absolute;
+#wrong1, #wrong2, #wrong3{
+  position:absolute;
+  top:50%;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  z-index: 100;
 }
