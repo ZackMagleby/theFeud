@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<center><img src="images/logo.png"/>
-  <h2 style="font-family='fantasy'; color: white;">Make your own game of Family Feud!</h2>
+<center><img src="images/logo.png" id="logo"/>
+  <h2 style="font-family='fantasy'; color: white; margin: 0;">Make your own game of Family Feud!</h2>
 
 <table>
   <tr>
@@ -17,43 +17,43 @@
   </tr>
   <tr>
     <td>1</td>
-    <td><input type="text" id="answer1"></td>
-    <td><input type="text" id="value1"></td>
+    <td><input type="text" id="answer1" maxlength="8"></td>
+    <td><input type="text" id="value1" maxlength="2"></td>
   </tr>
   <tr>
     <td>2</td>
-    <td><input type="text" id="answer2"></td>
-    <td><input type="text" id="value2"></td>
+    <td><input type="text" id="answer2" maxlength="8"></td>
+    <td><input type="text" id="value2" maxlength="2"></td>
   </tr>
   <tr>
     <td>3</td>
-    <td><input type="text" id="answer3"></td>
-    <td><input type="text" id="value3"></td>
+    <td><input type="text" id="answer3" maxlength="8"></td>
+    <td><input type="text" id="value3" maxlength="2"></td>
   </tr>
   <tr>
     <td>4</td>
-    <td><input type="text" id="answer4"></td>
-    <td><input type="text" id="value4"></td>
+    <td><input type="text" id="answer4" maxlength="8"></td>
+    <td><input type="text" id="value4" maxlength="2"></td>
   </tr>
   <tr>
     <td>5</td>
-    <td><input type="text" id="answer5"></td>
-    <td><input type="text" id="value5"></td>
+    <td><input type="text" id="answer5" maxlength="8"></td>
+    <td><input type="text" id="value5" maxlength="2"></td>
   </tr>
   <tr>
     <td>6</td>
-    <td><input type="text" id="answer6"></td>
-    <td><input type="text" id="value6"></td>
+    <td><input type="text" id="answer6" maxlength="8"></td>
+    <td><input type="text" id="value6" maxlength="2"></td>
   </tr>
   <tr>
     <td>7</td>
-    <td><input type="text" id="answer7"></td>
-    <td><input type="text" id="value7"></td>
+    <td><input type="text" id="answer7" maxlength="8"></td>
+    <td><input type="text" id="value7" maxlength="2"></td>
   </tr>
   <tr>
     <td>8</td>
-    <td><input type="text" id="answer8"></td>
-    <td><input type="text" id="value8"></td>
+    <td><input type="text" id="answer8" maxlength="8"></td>
+    <td><input type="text" id="value8" maxlength="2"></td>
   </tr>
 </table>
 <br>
@@ -62,7 +62,7 @@
         <td id="table2row">Controls</td>
     </tr>
     <tr>
-        <td id="table2row">#1-8/Click</td>
+        <td id="table2row">#1-8 or Click</td>
         <td id="table2row">Reveal Answers #1-8</td>
     </tr>
     <tr>
@@ -87,6 +87,7 @@
     </tr>
 </table>
 <br>
-<button onclick="startGame()" type="button">Play the Feud!</button></center>
+<button onclick="startGame()" type="button" id="button">Play the Feud!</button></center>
+<br>
 </body>
 </html>

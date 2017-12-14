@@ -67,10 +67,63 @@ table{
 
 #wrong1, #wrong2, #wrong3{
   position:absolute;
-  top:50%;
+  top:10%;
   left:0;
   right:0;
   bottom:0;
   margin:auto;
   z-index: 100;
+}
+
+#button{
+  position: absolute;
+  top: 0%;
+  height: 75px;
+  width: auto;
+}
+
+#logo{
+  width: 200px;
+  height: auto;
+}
+
+#table2{
+    color: black;
+    background-color: blue;
+    width: 100%;
+    margin-left: 0%;
+    font-family: arcadeclassic;
+}
+
+#table2row{
+    background-color: white;
+}
+
+.tooltip {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    font-family: arcadeclassic;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 100;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
