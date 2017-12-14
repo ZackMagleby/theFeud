@@ -39,7 +39,7 @@ table{
     display: inline-block;
     float: left;
     z-index: 1;
-    transform: translate(1em, -200%);
+    transform: translate(1em, -150%);
 }
 
 #boardValue1, #boardValue2, #boardValue3, #boardValue4, #boardValue5, #boardValue6, #boardValue7, #boardValue8 {
@@ -53,11 +53,11 @@ table{
     display: inline-block;
     float: right;
     z-index: 1;
-    transform: translate(10em, -200%);
+    transform: translate(6em, -150%);
 }
 
 #board1, #board2, #board3, #board4, #board5, #board6, #board7, #board8{
-    width: 99%;
+    width: 100%;
     height: auto;
     position: relative;
     display: block;
@@ -66,19 +66,19 @@ table{
 }
 
 #wrong1{
-    transform: translate(200%, -150%);
+    transform: translate(115%, -100%);
     z-index: 100;
     position: absolute;
 }
 
 #wrong2{
-    transform: translate(75%, -150%);
+    transform: translate(35%, -100%);
     z-index: 100;
     position: absolute;
 }
 
 #wrong3{
-    transform: translate(33%, -150%);
+    transform: translate(5%, -100%);
     z-index: 100;
     position: absolute;
 }

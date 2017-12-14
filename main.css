@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "gameshow";
-    src: url(fonts/gameshow/gameshow.TTF);
+    font-family: "arcadeclassic";
+    src: url(fonts/arcadeclassic/arcadeclassic.TTF);
 }
 
 html, body {
@@ -12,10 +12,12 @@ html, body {
 }
 
 table{
-    font-family: fantasy;
+    font-family: arcadeclassic;
+    color: white;
 }
 
 #table2{
+    color: black;
     background-color: blue;
 }
 
